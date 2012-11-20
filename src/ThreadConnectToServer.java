@@ -32,7 +32,9 @@ class ThreadConnectToServer extends Thread
                 return;
             }
 
+            //Ethilvan start
             GuiConnecting.getNetClientHandler(this.connectingGui).addToSendQueue(new Packet2ClientProtocol(59, GuiConnecting.func_74254_c(this.connectingGui).session.username, this.ip, this.port));
+            //Ethilvan end
         }
         catch (UnknownHostException var2)
         {

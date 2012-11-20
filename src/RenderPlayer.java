@@ -148,6 +148,8 @@ public class RenderPlayer extends RenderLiving
      */
     protected void renderName(EntityPlayer par1EntityPlayer, double par2, double par4, double par6)
     {
+    	//Ethilvan start
+
         /*if (Minecraft.isGuiEnabled() && par1EntityPlayer != this.renderManager.livingPlayer && !par1EntityPlayer.getHasActivePotion())
         {
             float var8 = 1.6F;
@@ -201,6 +203,7 @@ public class RenderPlayer extends RenderLiving
                 }
             }
         }*/
+    	//Ethilvan end
     }
 
     /**
